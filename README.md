@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>志望理由.com｜総合型選抜に強い志望理由書・面接対策LP</title>
+  <meta name="description" content="総合型選抜（AO・推薦）に特化した志望理由書テンプレート×プロ添削×面接対策。無料体験・合格者サンプル配布中。" />
+  <meta property="og:title" content="志望理由書.com｜総合型選抜特化" />
+  <meta property="og:description" content="志望理由書テンプレ×プロ添削×面接対策。まずは無料で体験。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.jpg" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Noto+Sans+JP:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#2557D6',
+            brandDark: '#1D46AB',
+            accent: '#0EA5E9',
+            success: '#10B981',
+            warning: '#F59E0B',
+            danger: '#EF4444',
+            text: '#1F2937',
+            muted: '#6B7280',
+            surface: '#F8FAFC',
+          },
+          boxShadow: { soft: '0 10px 20px rgba(2,6,23,.08)' },
+          borderRadius: { xl2: '1rem' },
+          fontFamily: { sans: ['Noto Sans JP', 'Inter', 'ui-sans-serif', 'system-ui'] },
+          maxWidth: { wrap: '1120px' }
+        }
+      }
+    }
+  </script>
+  <style>
+    :root{ --bg:#ffffff; --text:#1f2937; --muted:#6b7280; --brand:#2557D6; --brandDark:#1D46AB; --accent:#0EA5E9; --surface:#F8FAFC; --ring:#93c5fd; }
+    .focus-ring:focus{ outline: 3px solid var(--ring); outline-offset: 2px; }
+  </style>
+</head>
+<body class="bg-white text-text font-sans tracking-[0.01em]">
+  <!-- Sticky Header -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="mx-auto max-w-wrap px-5 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3" aria-label="志望理由書.com ホーム">
+    
+        <div class="w-8 h-8 rounded-xl bg-brand/10 grid place-items-center"> <span class="text-brand font-extrabold">志</span> </div> <span class="font-extrabold text-lg">志望理由書.com</span> </a> <nav class="hidden md:flex items-center gap-6 text-sm"> <a href="#features" class="hover:text-brand">強み</a> <a href="#proof" class="hover:text-brand">支援内容</a> <a href="#offer" class="hover:text-brand">無料体験</a> <a href="#pricing" class="hover:text-brand">料金</a> <a href="#faq" class="hover:text-brand">FAQ</a> <a href="#cta" class="px-4 py-2 rounded-xl bg-brand text-white hover:bg-brandDark transition-colors">無料体験</a> </nav> <a href="#cta" class="md:hidden px-3 py-2 rounded-xl bg-brand text-white text-sm">無料体験</a> </div>
+        
+      
+  </header>
+
+ <!-- Hero -->
+<section class="relative bg-surface">
+  <div class="mx-auto max-w-wrap px-5 py-14 md:py-20 grid gap-10 items-start">
+    <div>
+      <div class="inline-flex items-center gap-2 text-xs px-2 py-1 rounded-full bg-accent/10 text-accent font-medium mb-4">
+        <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span> 総合型選抜 特化カリキュラム
+      </div>
+      <h1 class="text-3xl md:text-5xl font-extrabold leading-tight text-slate-900">
+        あなたの大学学部選び、<br class="hidden md:block"/>もう間違えない
+      </h1>
+       <p class="mt-5 text-base md:text-lg text-muted">
+        総合型選抜・学校推薦入試の総合指導
+      </p>
+      
+      
+      <!-- Hero Image Section (Pexels: Japanese Students Walking on Sunny Street) -->
+<section class="relative w-full h-80 md:h-[480px] bg-cover bg-center"
+         style="background-image:url('https://images.pexels.com/photos/30886969/pexels-photo-30886969.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+  <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+    <h2 class="text-white text-2xl md:text-4xl font-extrabold drop-shadow-lg">
+      志望理由に“芯”をつくる、はじめの一歩。
+    </h2>
+  </div>
+</section>
+    
+
+    <!-- Problem -->
+<section id="features" class="py-16 md:py-24">
+  <div class="mx-auto max-w-wrap px-5">
+<h2 class="font-extrabold"
+    style="font-size:clamp(18px, 2.5vw, 28px)">
+  こんなお悩みありませんか？
+</h2>
+
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <!-- 1) 数学は好きだけど文系 -->
+      <a href="/articles/math-lover-arts-track"
+         class="block bg-white rounded-2xl shadow-soft p-6 border border-transparent hover:border-gray-200 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-indigo-200 transition"
+         aria-label="数学は好きだけど文系 — 詳しい解説ページへ">
+        <h3 class="font-bold">得意科目で受けられる学部を選ぶ</h3>
+        <p id="card-1-desc" class="mt-2 text-muted">
+          ひとまず大学に入ることを優先して、得意科目で受けられる学部を選択。その学部に入ってからのイメージはつかめていない、、
+        </p>
+        <span class="mt-3 inline-flex items-center text-indigo-600 font-medium">詳しく見る
+          <svg aria-hidden="true" class="ml-1 h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707A1 1 0 118.707 5.293l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"/></svg>
+        </span>
+      </a>
+
+      <!-- 2) 得意科目で受けられる学部を選ぶ -->
+      <a href="/articles/choose-by-strong-subject"
+         class="block bg-white rounded-2xl shadow-soft p-6 border border-transparent hover:border-gray-200 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-indigo-200 transition"
+         aria-label="得意科目で受けられる学部を選ぶ — 詳しい解説ページへ">
+        <h3 class="font-bold">好きな科目を受験でやめてしまって良いのか？</h3>
+        <p id="card-2-desc" class="mt-2 text-muted">
+          数学は好きだし、文系でやりたいことがあるでもないけど文系の数学受験。好きな科目、得意科目を受験でやめちゃって良いのかな、、
+        </p>
+        <span class="mt-3 inline-flex items-center text-indigo-600 font-medium">詳しく見る
+          <svg aria-hidden="true" class="ml-1 h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707A1 1 0 118.707 5.293l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"/></svg>
+        </span>
+      </a>
+
+      <!-- 3) とりあえず医学部 -->
+      <a href="/articles/med-school-by-default"
+         class="block bg-white rounded-2xl shadow-soft p-6 border border-transparent hover:border-gray-200 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-indigo-200 transition"
+         aria-label="とりあえず医学部 — 詳しい解説ページへ">
+        <h3 class="font-bold">とりあえず医学部</h3>
+        <p id="card-3-desc" class="mt-2 text-muted">
+          医師になりたいかは本当のところ分からないが、とりあえず医学部にしよう。でもそれで良いのかな、、
+        </p>
+        <span class="mt-3 inline-flex items-center text-indigo-600 font-medium">詳しく見る
+          <svg aria-hidden="true" class="ml-1 h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707A1 1 0 118.707 5.293l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"/></svg>
+        </span>
+      </a>
+      
+
+      <!-- 1) 数学は好きだけど文系 -->
+      <a href="/articles/math-lover-arts-track"
+         class="block bg-white rounded-2xl shadow-soft p-6 border border-transparent hover:border-gray-200 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-indigo-200 transition"
+         aria-label="数学は好きだけど文系 — 詳しい解説ページへ">
+        <h3 class="font-bold">塾・学校の先生におすすめされたところを受験</h3>
+        <p id="card-1-desc" class="mt-2 text-muted">
+          「志望校上げても良い」、、
+        </p>
+        <span class="mt-3 inline-flex items-center text-indigo-600 font-medium">詳しく見る
+          <svg aria-hidden="true" class="ml-1 h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707A1 1 0 118.707 5.293l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"/></svg>
+        </span>
+      </a>
+   
+  </div>
+  
+</section>
+
+      <p class="mt-5 text-base md:text-lg text-muted">
+        自分を知り、自分の目指す未来を知り、その準備ができる大学を選ぶ。
+        その目的意識が受験勉強を乗り越える芯になり、入学後に大学を使い倒す原動力になる。
+      </p>
+      <!-- Value bullets -->
+      <ul class="mt-6 space-y-2 text-sm text-slate-700">
+        <li class="flex items-start gap-2"><span class="mt-1 w-5 h-5 rounded-full bg-success/10 text-success grid place-items-center">✓</span> 自分の芯ができた上で、志望理由書、事前課題提出へ</li>
+        <li class="flex items-start gap-2"><span class="mt-1 w-5 h-5 rounded-full bg-success/10 text-success grid place-items-center">✓</span> 面接/口頭試問まで一気通貫サポート</li>
+        <li class="flex items-start gap-2"><span class="mt-1 w-5 h-5 rounded-full bg-success/10 text-success grid place-items-center">✓</span> 入学後の進路/転学部フォローにも対応</li>
+      </ul>
+
+        
+      
+          
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-6 gap-4 items-center">
+  <div class="md:col-span-5 flex flex-wrap items-center gap-3 text-sm">
+  
+    <a href="/flow/consulting" class="px-3 py-1 rounded-full bg-white shadow-soft hover:shadow-md transition" aria-label="無料相談の詳細ページ">無料相談</a>
+    <span>→</span>
+    <a href="/flow/school-selection" class="px-3 py-1 rounded-full bg-white shadow-soft hover:shadow-md transition" aria-label="志望校選定の詳細ページ">志望校選定</a>
+    <span>→</span>
+    <a href="/flow/application-essay" class="px-3 py-1 rounded-full bg-white shadow-soft hover:shadow-md transition" aria-label="志望理由書・事前課題指導の詳細ページ">志望理由書・事前課題指導</a>
+    <span>→</span>
+    <a href="/flow/interview-training" class="px-3 py-1 rounded-full bg-white shadow-soft hover:shadow-md transition" aria-label="面接特訓の詳細ページ">面接特訓</a>
+    <span>→</span>
+    <a href="/flow/success" class="px-3 py-1 rounded-full bg-white shadow-soft hover:shadow-md transition" aria-label="合格の詳細ページ">入学前フォロー</a>
+  </div>
+</div>
+  
+     <p class="mt-5 text-base md:text-lg text-muted">
+        本質的に、目的意識をしっかりさせて大学受験に臨むことで、推薦入試の対策は終わったも同然。
+      </p>
+
+ <!-- 朝焼けの写真セクション -->
+<section class="relative w-full h-64 md:h-96 mt-6 bg-cover bg-center rounded-2xl shadow-soft"
+         style="background-image:url('https://images.pexels.com/photos/462146/pexels-photo-462146.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+  <div class="absolute inset-0 bg-black/20 flex items-center justify-center rounded-2xl">
+    <h3 class="text-white text-xl md:text-3xl font-bold drop-shadow-lg">
+     大学はどういう人材を求めているのか？教えます
+    </h3>
+  </div>
+</section> 
+  
+      <!-- Solution -->
+  <section class="bg-surface py-16 md:py-24">
+    <div class="mx-auto max-w-wrap px-5">
+    <h2 class="font-extrabold"
+    style="font-size:clamp(18px, 2.5vw, 28px)">
+  誰もがやりたいことの確信を持って大学を受けられる世の中へ
+</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl shadow-soft p-6">
+          <div class="text-accent font-bold">1. 自分を知る</div>
+          <p class="mt-2 text-muted">自分のこれまでの学びや経験から、本当にやりたいことを探っていく。</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-soft p-6">
+          <div class="text-accent font-bold">2. 大学を知る</div>
+          <p class="mt-2 text-muted">自分の目指す未来を実現するため、その準備として学び、成長することのできる大学を見つけていく。</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-soft p-6">
+          <div class="text-accent font-bold">3. 自分の目指す未来に向けて、大学を使い倒す決意</div>
+          <p class="mt-2 text-muted">自分の目指す未来に向けて、目的意識を持って大学に入学し、そこで成長する決意を決め、よってその大学を志望する。</p>
+   </div></div>
+      
+    
+    <!-- Hero Form Card（1列構成なので下に縦並び） -->
+    <div id="contact">
+      <div class="bg-white rounded-2xl shadow-soft p-6">
+        <h2 class="text-xl font-bold">60秒で無料体験に申し込む</h2>
+     
+
+        <!-- FormSubmit でメール送信 -->
+        <form class="mt-5 space-y-4"
+              action="https://formsubmit.co/thmkmb10@gmail.com"
+              method="POST">
+          <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="志望理由書.com 無料体験申し込み">
+          <input type="hidden" name="_template" value="table">
+          <!-- <input type="hidden" name="_next" value="https://YOUR-DOMAIN/thanks.html"> -->
+
+          <div>
+            <label for="name" class="block text-sm font-medium">お名前</label>
+            <input id="name" name="name" type="text" required class="mt-1 w-full border border-slate-200 rounded-xl p-3 focus-ring" placeholder="山田 太郎">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium">メールアドレス</label>
+            <input id="email" name="email" type="email" required class="mt-1 w-full border border-slate-200 rounded-xl p-3 focus-ring" placeholder="you@example.com">
+          </div>
+          <div>
+            <label for="school" class="block text-sm font-medium">志望校（任意）</label>
+            <input id="school" name="school" type="text" class="mt-1 w-full border border-slate-200 rounded-xl p-3 focus-ring" placeholder="例：上智大学 総合グローバル学部">
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-medium">お問い合わせ内容 / 希望日時（任意）</label>
+            <textarea id="message" name="message" rows="4" class="mt-1 w-full border border-slate-200 rounded-xl p-3 focus-ring" placeholder="体験希望日、現状の課題などをご記入ください"></textarea>
+          </div>
+          <div class="flex items-start gap-2">
+            <input id="agree" type="checkbox" required class="mt-1">
+            <label for="agree" class="text-sm text-gray-600">個人情報の取り扱いに同意します（<a href="#" class="text-brand underline">プライバシーポリシー</a>）</label>
+          </div>
+          <button type="submit" class="w-full py-3 rounded-xl bg-brand text-white hover:bg-brandDark transition-colors font-semibold">
+            無料申し込みはこちらから
+          </button>
+          <p class="text-[13px] text-muted">
+            送信すると入力内容が <strong>thmkmb10@gmail.com</strong> にメール通知されます。
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+          
+    
+
+  <!-- 以下はそのまま（features / solution / proof / offer / pricing / faq / cta / footer / sticky bar / scripts） -->
+  <!-- ・・・（あなたの元コードを省略）・・・ -->
+
+  <script>
+    // 年表示
+    document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());
+
+    // 締切カウントダウン（本日23:59:59）
+    (function countdown(){
+      const now = new Date();
+      const end = new Date();
+      end.setHours(23,59,59,999);
+      const diff = end - now;
+      const el = document.getElementById('countdown');
+      if(el){
+        if(diff <= 0){ el.textContent = '締切終了まで 00:00:00'; return; }
+        const h = String(Math.floor(diff/1000/60/60)).padStart(2,'0');
+        const m = String(Math.floor(diff/1000/60)%60).padStart(2,'0');
+        const s = String(Math.floor(diff/1000)%60).padStart(2,'0');
+        el.textContent = `本日 23:59:59 まで（残り ${h}:${m}:${s}）`;
+        requestAnimationFrame(countdown);
+      }
+    })();
+
+    // 仮の残席カウント
+    (function slots(){
+      const el = document.getElementById('slots');
+      if(!el) return;
+      let base = 20;
+      setInterval(()=>{ if(base>3){ base--; el.textContent = base; } }, 15000);
+    })();
+  </script>
+
+
+ 
+ 
+  
+  <!-- Pricing -->
+  <section id="pricing" class="py-16 md:py-24">
+    <div class="mx-auto max-w-wrap px-5">
+      <h2 class="text-2xl md:text-4xl font-extrabold">状況に合わせて選べる3プラン</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <!-- Lite -->
+        <div class="bg-white rounded-2xl shadow-soft p-6 flex flex-col">
+          <div class="text-sm font-semibold text-accent">ライト</div>
+          <div class="mt-2 text-3xl font-extrabold">¥5,500<span class="text-base font-medium text-muted"> / 一括</span></div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li>志望理由書/事前課題指導</li>
+            <li>回数無制限の添削指導</li>
+            <li>回数無制限のメールサポート</li>
+          </ul>
+          <a href="#cta" class="mt-6 inline-flex justify-center px-4 py-2 rounded-xl border border-slate-300 hover:bg-slate-50">このプランで申し込む</a>
+        </div>
+        <!-- Standard (featured) -->
+        <div class="relative bg-white rounded-2xl shadow-soft p-6 ring-2 ring-brand flex flex-col">
+          <div class="absolute -top-3 right-4 text-xs px-2 py-1 rounded-full bg-brand text-white">おすすめ</div>
+          <div class="text-sm font-semibold text-accent">スタンダード</div>
+          <div class="mt-2 text-3xl font-extrabold">¥7,200<span class="text-base font-medium text-muted"> / 一括</span></div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li>ライトプランすべて</li>
+            <li>回数無制限の面接指導<li>
+            <li>週1回の進捗管理面談<li>
+          </ul>
+          <a href="#cta" class="mt-6 inline-flex justify-center px-4 py-2 rounded-xl bg-brand text-white hover:bg-brandDark">このプランで申し込む</a>
+          <p class="mt-3 text-[13px] text-muted">※ 返金条件等の詳細は <a href="#" class="underline">こちら</a></p>
+        </div>
+        <!-- Full -->
+        <div class="bg-white rounded-2xl shadow-soft p-6 flex flex-col">
+          <div class="text-sm font-semibold text-accent">フル</div>
+          <div class="mt-2 text-3xl font-extrabold">¥9,800<span class="text-base font-medium text-muted"> / 一括</span></div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li>スタンダードすべて</li>
+            <li>有料公開note見放題</li>
+            <li>入学後１年間の学習フォロー</li>
+          </ul>
+          <a href="#cta" class="mt-6 inline-flex justify-center px-4 py-2 rounded-xl border border-slate-300 hover:bg-slate-50">このプランで申し込む</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="bg-surface py-16 md:py-24">
+    <div class="mx-auto max-w-wrap px-5">
+      <h2 class="text-2xl md:text-4xl font-extrabold">よくある質問</h2>
+      <div class="mt-8 space-y-4">
+        <details class="bg-white rounded-2xl shadow-soft p-6">
+          <summary class="cursor-pointer font-bold">成績に自信がなくても大丈夫？</summary>
+          <p class="mt-3 text-muted">ご安心下さい。総合型選抜を知り尽くしたプロが、あなたに最適な志望校、学部系統をご紹介し、そこから未来につなげていきます。</p>
+        </details>
+        <details class="bg-white rounded-2xl shadow-soft p-6">
+          <summary class="cursor-pointer font-bold">地方からでも受講できる？</summary>
+          <p class="mt-3 text-muted">指導はすべてオンラインで行いますのでご安心ください。面接練習は録画フィードバックも実施します。</p>
+        </details>
+        <details class="bg-white rounded-2xl shadow-soft p-6">
+          <summary class="cursor-pointer font-bold">料金や返金条件は？</summary>
+          <p class="mt-3 text-muted">各プランの詳細・返金条件は料金セクションの注記をご確認ください。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing CTA -->
+  <section id="cta" class="py-16 md:py-24">
+    <div class="mx-auto max-w-wrap px-5">
+      <div class="bg-gradient-to-r from-brand to-brandDark text-white rounded-2xl p-8 md:p-12 shadow-soft">
+      <h2 class="text-lg sm:text-xl md:text-3xl font-extrabold whitespace-nowrap">
+  誰もが確信を持って大学学部を選べる世の中へ
+</h2>
+        <p class="mt-2 text-white/90">今だけ、合格サンプルPDFを無料配布中。60秒で申し込み完了。</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="apply.html" class="px-5 py-3 rounded-xl bg-white text-brand font-semibold">無料体験に申し込む</a>
+          <a href="sample.html" class="px-5 py-3 rounded-xl border border-white/70 text-white/90">合格サンプルを見る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 py-10">
+    <div class="mx-auto max-w-wrap px-5 grid md:grid-cols-3 gap-6 text-sm">
+      <div>
+        <div class="font-extrabold">志望理由書.com</div>
+        <p class="mt-2 text-muted">総合型選抜（AO・推薦）専門の志望理由書・面接対策サービス。</p>
+      </div>
+      <div class="text-muted">
+        <ul class="space-y-2">
+          <li><a href="#pricing" class="hover:text-brand">料金</a></li>
+          <li><a href="#faq" class="hover:text-brand">FAQ</a></li>
+          <li><a href="#" class="hover:text-brand">特定商取引法に基づく表記</a></li>
+          <li><a href="#" class="hover:text-brand">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <div>
+        <form class="bg-surface rounded-xl p-4">
+          <label for="footer-email" class="block text-sm font-medium">最新情報をメールで受け取る</label>
+          <div class="mt-2 flex gap-2">
+            <input id="footer-email" type="email" class="w-full border border-slate-200 rounded-xl p-3 focus-ring" placeholder="you@example.com" />
+            <button class="px-4 py-2 rounded-xl bg-brand text-white hover:bg-brandDark">登録</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="mx-auto max-w-wrap px-5 mt-8 text-xs text-muted">© <span id="year"></span> 志望理由書.com</div>
+  </footer>
+
+  <!-- Sticky bottom bar on mobile -->
+  <div class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur border-t border-slate-200 p-3">
+    <div class="mx-auto max-w-wrap flex items-center justify-between gap-3">
+      <div class="text-sm">
+        <div class="font-bold">無料体験 受付中</div>
+        <div class="text-muted">残り <span id="slots">20</span> 名</div>
+      </div>
+      <a href="#cta" class="px-4 py-2 rounded-xl bg-brand text-white">申し込む</a>
+    </div>
+  </div>
+
+  <script>
+    // 年表示
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // 締切カウントダウン（本日23:59:59）
+    (function countdown(){
+      const now = new Date();
+      const end = new Date();
+      end.setHours(23,59,59,999);
+      const diff = end - now;
+      const el = document.getElementById('countdown');
+      if(diff <= 0){ el.textContent = '締切終了まで 00:00:00'; return; }
+      const h = String(Math.floor(diff/1000/60/60)).padStart(2,'0');
+      const m = String(Math.floor(diff/1000/60)%60).padStart(2,'0');
+      const s = String(Math.floor(diff/1000)%60).padStart(2,'0');
+      el.textContent = `本日 23:59:59 まで（残り ${h}:${m}:${s}）`;
+      requestAnimationFrame(countdown);
+    })();
+
+    // 仮の残席カウント（見せ方用。実装時はサーバー値を使用）
+    (function slots(){
+      const el = document.getElementById('slots');
+      if(!el) return;
+      let base = 20;
+      setInterval(()=>{ if(base>3){ base--; el.textContent = base; } }, 15000);
+    })();
+  </script>
+</body>
+</html>
+
+  
+ 
